@@ -1,0 +1,47 @@
+.img-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-card {
+    position: relative;
+    background-color: #fff;
+}
+.img-card .tag {
+    position: absolute;
+    z-index: 1;
+    top: 0.11rem;
+    right: 0.11rem;
+    font-size: 0.2rem;
+    color: #fff;
+}
+.img-card .img-con {
+    position: relative;
+    height: 0;
+    background-color: #aaa;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+.img-card .img-con .shadow {
+    position: absolute;
+    height: 2.1rem;
+    width: 100%;
+    box-shadow: 0 15px 21px -9px #777 inset;
+}
+.img-card .img-con img {
+    width: 100%;
+}
+img-card .dec.twoLines {
+    height: 0.6rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.img-card .dec {
+    margin-top: 0.2rem;
+    font-size: 0.23rem;
+    line-height: 0.3rem;
+    letter-spacing: 1px;
+}

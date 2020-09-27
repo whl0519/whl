@@ -1,0 +1,206 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	height: 1.75rem;
+	background-color: #1448ae
+}
+
+.header-tibiao {
+	height: 0.88rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.header-tibiao-center {
+	width: 80%;
+	justify-content: flex-start;
+	align-items: center;
+	display: flex
+}
+
+.z-t {
+	font-size: 0.5rem;
+	color: white;
+}
+
+.header-tibiao-kuang {
+	flex-grow: 2;
+}
+
+.m-d {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 0.3rem;
+}
+
+.header-sousuo {
+	height: 0.87rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.header-sousuo-n {
+	width: 80%;
+	justify-content: flex-start;
+	align-items: center;
+	display: flex;
+	position: relative;
+}
+
+.header-sousuo-n input {
+	border-radius: 1rem;
+	height: 0.5rem;
+	margin-top: 0.2rem;
+	background: none;
+	border: 0.01rem solid white;
+	opacity: 0.5;
+}
+
+.f-d-j {
+	position: absolute;
+	top: 0.25rem;
+	left: 0.24rem;
+	font-size: 0.3rem;
+	color: white;
+}
+
+
+/*头部*/
+
+
+/*内容*/
+
+article {
+	display: flex;
+	background-color: white;
+	height: 100%
+}
+
+.article-nav {
+	height: 100%;
+	width: 20%;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+}
+
+.article-nav-li {
+	width: 100%;
+	height: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.article-nav-li i {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.7rem;
+	margin-top: 0.2rem;
+	color: #707070;
+}
+
+.article-nav-li span {
+	font-size: 0.4rem;
+	margin-bottom: 0.3rem;
+	color: #707070;
+}
+
+.addcalss {
+	background-color: white;
+	border-left: 4px solid #f7c612;
+}
+
+.di-yi-shu {
+	width: 50%;
+}
+
+
+/*左*/
+
+
+/*右*/
+
+.article-right {
+	width: 70%;
+	margin: 0rem 0.4rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.article-right-li {
+	border: 1px solid #ccc;
+	height: 2.65rem;
+	margin: 0.2rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.article-right-li img {
+	height: 80%;
+	width: 100%;
+}
+
+.article-right-li span {
+	font-size: 0.25rem;
+}
+
+
+/*内容*/
+
+
+/*footer*/
+
+.footer {
+	width: 100%;
+	height: 2rem;
+	background-color: #ededed;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.item {
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.item i {
+	font-size: 0.6rem;
+	margin-top: 0.3rem;
+	color: #999;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item span {
+	color: #999999;
+}
+
+
+/*footer结束*/

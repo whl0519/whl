@@ -1,0 +1,126 @@
+header {
+	height: .88rem;
+	line-height: .88rem;
+	text-align: center;
+	font-size: .28rem;
+	background: #1449ae;
+	color: #fff;
+}
+
+.icon-arrow-left {
+	float: left;
+	margin-left: .36rem;
+}
+
+nav{
+	height: 1.25rem;
+	background: #1554b3;
+	text-align: center;
+}
+nav img{
+	width: 2rem;
+	height: 1.8rem;
+	margin-top: .35rem;
+}
+.p{
+	color: #000;
+	font-size: .38rem;
+	font-family: '宋体';
+	margin-top: 1.3rem;
+	text-align: center;
+}
+.shijie{
+	text-align: center;
+	font-size: .27rem;
+	font-family: '宋体';
+	margin-bottom: .5rem;
+}
+.quan{
+	padding: .1rem 0;
+	height: 1.3rem;
+	background: #edf1f2;
+	margin-bottom: .25rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.quan>div{
+	width: 50%;
+	text-align: center;
+}
+.quan>div>p{
+	margin-top: .2rem;
+	color: #000000;
+	font-size: .5rem;
+	margin-bottom: -.1rem;
+}
+.quan>div>span{
+	color: #979da4;
+	font-size: .2rem;
+}
+.quan1{
+	width: 50%;
+	border-right: .01rem dotted #999999;
+}
+.dingdan{
+	padding: 0 .4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.dingdan>div{
+	width: 25%;
+	height: 1.3rem;
+	text-align: center;
+}
+.ce{
+	margin: .2rem .6rem ;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	font-size: .5rem;
+	font-family: '宋体';
+	color: #555555;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.ce i{
+	font-size: .5rem;
+}
+/*footer*/
+
+.footer {
+	width: 100%;
+    height: 1.2rem;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.item {
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.item i {
+	font-size: 0.6rem;
+	margin-top: 0.3rem;
+	color: #999;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item span {
+	color: #999999;
+}
+
+
+/*footer结束*/

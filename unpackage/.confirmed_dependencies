@@ -1,0 +1,29 @@
+{
+	"index.html": {
+		"resources": [
+			"img/img3/巴厘岛.jpg",
+			"img/img1/泰国.jpg",
+			"img/img2/青海湖---721人去过---560人想去.jpg",
+			"img/img2/香格里拉---632人去过----803人想去.jpg",
+			"img/img1/美国.jpg",
+			"img/img1/香港.jpg",
+			"img/img1/德国.jpg",
+			"img/img3/苏梅岛.jpg",
+			"img/img1/素材-(110).jpg",
+			"img/img3/夏威夷.jpg",
+			"img/img2/九寨沟---562人去过---876想去.jpg",
+			"img/img2/婺源---896人去过---596人想去.jpg",
+			"img/img1/云南.jpg",
+			"img/img3/塞班岛.jpg",
+			"img/img3/马尔代夫.jpg",
+			"img/img3/拉斯维加斯.jpg",
+			"img/img2/稻城亚丁---1032人去过----987人想去.jpg",
+			"img/img3/曼谷.jpg",
+			"img/img1/法国.jpg",
+			"img/img3/西班牙.jpg",
+			"img/img2/素材-(110)1.jpg",
+			"img/img2/乌镇---902人去过---683人想去.jpg",
+			"js/zepto和touch和fx.js"
+		]
+	}
+}

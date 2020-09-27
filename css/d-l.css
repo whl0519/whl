@@ -1,0 +1,68 @@
+.warp{
+	width: 7.5rem;
+	height: 13.3rem;
+	background-color: white;
+}
+
+.head-title{
+	width: 7.5rem;
+	height: 1rem;
+	/*background-color: pink;*/
+	line-height: 1rem;
+}
+.head-title img{
+	width: .35rem;
+	height: .35rem;
+	position: absolute;
+	top: .35rem;
+	left: .3rem;
+}
+.dl{
+	margin-left: 3.5rem;
+	font-size: .3rem;
+	
+}
+.zhuce{
+	margin-left: 2.5rem;
+	font-size: .2rem;
+	color: #1448ae;
+}
+
+
+
+form{
+	width: 7rem;
+	margin-left: .2rem;
+}
+.mui-input-group{
+	margin-top: 1rem;
+	
+}
+.mui-btn {
+	width: 6.62rem;
+	background-color: #f7c612;
+	border: none;
+	font-size: .3rem;
+}
+.mid-warp{
+		width: 6.62rem;
+		height: .5rem;
+		margin-left: .45rem;
+		margin-top: 1rem;
+		/*background-color: pink;*/
+}
+.mui-btn{
+	margin-top: 1rem;
+}
+.mui-button-row{
+	border: none;
+}
+.lf{
+	float: left;
+}
+.ri{
+	float: right;
+}
+.mui-input-group {
+      position: inherit;
+}

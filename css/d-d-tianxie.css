@@ -1,0 +1,172 @@
+body {
+	background-color: #edf1f2
+}
+
+header {
+	height: 0.88rem;
+	background-color: #1448ae;
+	display: flex;
+	justify-content: center;
+}
+
+.header-center {
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+
+.y-b {
+	color: white;
+	font-size: 0.7rem;
+}
+
+.header-title {
+	flex-grow: 2;
+	justify-content: center;
+	display: flex;
+	color: white;
+}
+
+
+/*toubu*/
+
+
+/*neirong*/
+
+.acticle-box1 {
+	height: 2rem;
+	padding-top: 0.53rem;
+	display: flex;
+	justify-content: center;
+}
+
+.acticle-box1-center {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box1-center-left {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.box1-center-right {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.box1-center-left-span1 {
+	width: 100%;
+	color: #888d94;
+}
+
+.box1-center-left-rq {
+	width: 100%;
+	color: #888d94;
+}
+
+.box1-center-left-rq2 {
+	width: 100%;
+	color: #888d94;
+}
+
+.box1-center-right-mingxi {
+	color: #888d94;
+	display: flex;
+	align-items: flex-end;
+	width: 2rem;
+	height: 80%;
+	justify-content: center;
+}
+
+.article-box2 {
+	height: 2.40rem;
+	display: flex;
+	justify-content: center;
+}
+
+.article-box2-center {
+	width: 80%;
+}
+
+.box2-center-bai {
+	padding: 0.2rem 0rem;
+	width: 100%;
+	height: 2rem;
+	border: 1px solid #dbe4e6;
+	background-color: white;
+	border-radius: 0.4rem;
+}
+
+.bai-center {
+	padding: 0.2rem;
+	height: 1.35rem;
+	display: flex;
+	align-items: center
+}
+
+.bai-span {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-size: 0.24rem;
+	justify-content: center;
+	color: #a9aaad;
+}
+
+.bai-center i {
+	display: flex;
+	align-items: center;
+	font-size: 0.7rem;
+	color: #ced3db;
+}
+
+.article-box3 {
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	padding-top: 0.2rem;
+}
+
+.article-box3-center {
+	width: 80%;
+}
+
+.box3-center-bai {
+	padding: 0.2rem 0rem;
+	width: 100%;
+	height: 4rem;
+	border: 1px solid #dbe4e6;
+	background-color: white;
+	border-radius: 0.4rem;
+}
+
+.box3-bai-center {
+	padding: 0.2rem;
+	height: 3.20rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.span1 {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+}
+
+.span1-span {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin-left: 0.1rem;
+}
+
+
+/*neirong*/

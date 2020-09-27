@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mui.css" />
+		<link rel="stylesheet" type="text/css" href="css/riqi.css" />
+		<script src="js/mui.min.js"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<i class="iconfont icon-arrow-left"></i>
+			<span>选择日期和人数</span>
+			<span class="head">起价说明</span>
+		</header>
+		<div id='schedule-box' class="boxshaw">
+
+		</div>
+		<div>
+			<h3 id='h3Ele'></h3>
+		</div>
+		<div class="box">
+			<div class="chengren">
+				<div class="fl">
+					<span class="zi">成人</span>
+					<span class="zi1">￥3195/人</span>
+				</div>
+				<div class="fr" id="box">
+					<span><button id="sub">-</button></span>
+					<span><input type="text" id="txt" value="2" /></span>
+					<span><button id="add">+</button></span>
+					</ul>
+				</div>
+       </div>
+       <div class="chengren">
+				<div class="fl clearfix"style="margin-left: -2rem; margin-right: 2rem;">
+					<span class="zi">儿童</span>
+				</div>
+				<div class="fr" id="box" style="margin-top: -.2rem;">
+					<span><button id="sub">-</button></span>
+					<span><input type="text" id="txt" value="0" /></span>
+					<span><button id="add">+</button></span>
+					</ul>
+				</div>
+       </div>
+       <div class="cheng">
+       	<span class="you">
+       		√
+       	</span>
+       	<span class="you1">携带幼儿&nbsp;0~2岁</span>
+       </div>
+       <div class="xiao">
+       	<div class="zuo">
+       		!
+       	</div>
+       	<div class="you2">
+       		<span>最少1人起订，年龄2—12周岁，不占床，不含早，只含当地的正餐半餐、车位以及导服，其他需要自理。成人+儿童最多支持9人，</span>
+       		<span style="color: #f88412;">*以上价格均为起价</span>
+       	</div>
+       </div>
+			</div>
+			<footer  style="display: flex;">
+				<div class="foot">
+					总金额：6318 <span class="ming">明细></span>
+				</div>
+				<div class="foot1">
+					下一步 <span class="ming">选择资源</span>
+				</div>
+			</footer>
+
+			<script src="js/schedule.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				var mySchedule = new Schedule({
+					el: '#schedule-box',
+					//date: '2018-9-20',
+					clickCb: function(y, m, d) {
+						document.querySelector('#h3Ele').innerHTML = '日期：' + y + '-' + m + '-' + d
+					},
+					nextMonthCb: function(y, m, d) {
+						document.querySelector('#h3Ele').innerHTML = '日期：' + y + '-' + m + '-' + d
+					},
+					nextYeayCb: function(y, m, d) {
+						document.querySelector('#h3Ele').innerHTML = '日期：' + y + '-' + m + '-' + d
+					},
+					prevMonthCb: function(y, m, d) {
+						document.querySelector('#h3Ele').innerHTML = '日期：' + y + '-' + m + '-' + d
+					},
+					prevYearCb: function(y, m, d) {
+						document.querySelector('#h3Ele').innerHTML = '日期：' + y + '-' + m + '-' + d
+					}
+				});
+				var oSub = document.getElementById('sub');
+				var oTxt = document.getElementById('txt');
+				var oAdd = document.getElementById('add');
+				oAdd.onclick = function() {
+					oTxt.value++;
+				}
+				oSub.onclick = function() {
+					if(oTxt.valu > 0) {
+						oTxt.value--;
+					} else {
+						oTxt.value = 0;
+					}
+				}
+			</script>
+	</body>
+
+</html>

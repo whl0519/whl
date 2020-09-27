@@ -1,0 +1,279 @@
+header {
+	height: .88rem;
+	line-height: .88rem;
+	background: #1448ae;
+	padding: 0 .35rem;
+	color: #fff;
+	font-family: "宋体";
+	font-size: .28rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.head {
+	font-family: "微软雅黑";
+	font-size: .24rem;
+}
+
+@font-face {
+	font-family: "iconfont";
+	src: url('//at.alicdn.com/t/font_234130_nem7eskcrkpdgqfr.eot?t=1505291076294');
+	/* IE9*/
+	src: url('//at.alicdn.com/t/font_234130_nem7eskcrkpdgqfr.eot?t=1505291076294#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'), url('//at.alicdn.com/t/font_234130_nem7eskcrkpdgqfr.ttf?t=1505291076294') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/font_234130_nem7eskcrkpdgqfr.svg?t=1505291076294#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-115rightarrowheads:before {
+	content: "\e79b";
+}
+
+.icon-111arrowheadright:before {
+	content: "\e6db";
+}
+
+.icon-116leftarrowheads:before {
+	content: "\e807";
+}
+
+.icon-112leftarrowhead:before {
+	content: "\e6f6";
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+#schedule-box {
+	background: #fff;
+	margin: 0 auto;
+	padding: .3rem 0;
+	font-size: .26rem;
+}
+
+.schedule-hd {
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 .3rem;
+}
+
+.today {
+	font-family: "宋体";
+	flex: 1;
+	text-align: center;
+}
+
+.week-ul {
+	color: #1ab2db;
+	border-bottom: .01rem solid #1ab2db;
+	height: .8rem;
+}
+
+.ul-box {
+	font-family: "宋体";
+	overflow: hidden;
+}
+
+.ul-box>li {
+	float: left;
+	width: 14.28%;
+	text-align: center;
+	padding: .1rem 0;
+}
+
+.other-month {
+	color: #999999;
+}
+
+.current-month {
+	color: #333333;
+}
+
+.today-style {
+	border-radius: 50%;
+	background: #58d321;
+}
+
+.arrow {
+	cursor: pointer;
+}
+
+.dayStyle {
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: .7rem;
+	cursor: pointer;
+}
+
+.current-month>.dayStyle:hover {
+	background: #00BDFF;
+	color: #ffffff;
+}
+
+.today-flag {
+	background: #00C2B1;
+	color: #fff;
+}
+
+.boxshaw {
+	box-shadow: .04rem .04rem .3rem .04rem #e3e3e3;
+}
+
+.selected-style {
+	background: #00BDFF;
+	color: #ffffff;
+}
+
+#h3Ele {
+	color: #fff;
+	font-size: .12rem;
+	text-align: center;
+	height: .2rem;
+}
+.box{
+	background: #fff;
+}
+.chengren{
+	margin-left: .4rem;
+	height: 1.05rem;
+	line-height: 1.05rem;
+	border-bottom: .01rem solid #AAAAAA;
+}
+#box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#box{
+	width: 2.6rem;
+	height: .6rem;
+	margin: .5rem auto;
+}
+#sub{
+	margin-right: -.1rem;
+}
+#sub,#add{
+	display: inline-flex;
+	width: 20%;
+	height: .62rem;
+	text-align: center;
+	font-size: .3rem;
+	margin-bottom: 0;
+	border: .01rem solid #ACACB4;
+}
+#txt{
+	flex: 1;
+	height: .62rem;
+	text-align: center;
+	float: left;
+	background: #e5e5e5;
+	border: .01rem solid #ACACB4;
+}
+.zi{
+	font-size: .3rem;
+	font-family: "微软雅黑"
+}
+.zi1{
+	font-size: .28rem;
+	font-family: "宋体";
+	color: #CCCCCC;
+}
+.cheng{
+	width: 99%;
+	margin-left: .4rem;
+	height: .75rem;
+	line-height: .75rem;
+	border-bottom: .01rem solid #AAAAAA;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: -.2rem;
+}
+
+.you{
+	width: .48rem;
+	height: .48rem;
+	line-height: .48rem;
+	margin-right: .2rem;
+	text-align: center;
+	border: .01rem solid #BBBBBB;
+}
+.you1{
+	margin-top: -.2rem;
+	font-family: "宋体";
+	font-size: .28rem;
+}
+.xiao{
+	margin-left: .4rem;
+	play-during: .2rem;
+	padding-top:.15rem;
+	padding-right: 1rem;
+	padding-bottom: .25rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.zuo{
+    font-size: .12rem;
+    height: 0.3rem;
+    line-height: .3rem;
+    text-align: center;
+    width: 1rem;
+    border: .01rem solid #BBBBBB;
+    border-radius: 50%;
+    margin: 0 .2rem;
+    color: #999999;
+}
+
+.you2 {
+	color: #999999;
+}
+footer{
+	font-family: "宋体";
+	height: .95rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer>div{
+	width: 50%;
+}
+.foot{
+	font-size: .32rem;
+	height: .95rem;
+	line-height: .95rem;
+	text-align: center;
+	color: #f1a30f;
+	background: #fff;
+}
+.ming{
+	font-size: .2rem;
+}
+.foot1{
+	font-size: .32rem;
+	height: .95rem;
+	line-height: .95rem;
+	text-align: center;
+	color: #fff;
+	background: #f1a30f;
+}

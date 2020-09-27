@@ -1,0 +1,101 @@
+.warp{
+	width: 7.5rem;
+	height: 13.3rem;
+	background-color: white;
+}
+
+.head-title{
+	width: 7.5rem;
+	height: 1rem;
+	/*background-color: pink;*/
+	line-height: 1rem;
+}
+.head-title img{
+	width: .35rem;
+	height: .35rem;
+	position: absolute;
+	top: .35rem;
+	left: .3rem;
+}
+.dl{
+	margin-left: 3.5rem;
+	font-size: .3rem;
+	
+}
+.zhuce{
+	margin-left: 2.5rem;
+	font-size: .2rem;
+	color: #1448ae;
+}
+.mui-input-group {
+      position: inherit;
+}
+
+.mui-input-group{
+	margin-top: 1rem;
+}
+.mui-btn {
+	width: 6.62rem;
+	background-color: #f7c612;
+	border: none;
+	font-size: .3rem;
+	margin-top: 1rem;
+}
+.hqyz{
+	border-radius: 10px;
+	background-color:#cccccc ;
+	width: 1.9rem;
+	height: .62rem;
+	color: white;
+	/*position: absolute;
+	top: 3.5rem;
+	left: 5.5rem;*/
+	margin-left: 5.5rem;
+	margin-top: .05rem;
+  line-height: .62rem; 	
+	text-align: center;
+  z-index: -1;
+}
+.hqyzm{
+	color: black;
+	/*position: absolute;*/
+  /*line-height: .62rem;*/ 	
+  margin-left: -.5rem;
+	/*margin-top: .05rem;*/
+	z-index: 99;
+}
+.cxfs{
+	border-radius: 10px;
+	background-color:#cccccc ;
+	width: 1.9rem;
+	height: .62rem;
+	color: white;
+	/*position: absolute;*/
+  line-height: .62rem; 	
+	margin-left: 5.5rem;
+	text-align: center;
+	margin-top: .8rem;
+}
+#cxfs{
+	color: white;
+	/*position: absolute;*/
+  line-height: .62rem; 	
+}
+
+.dm{
+	border-radius: 10px;
+	background-color:#cccccc ;
+	width: 1.9rem;
+	height: .62rem;
+	color: white;
+	/*position: absolute;*/
+  line-height: .62rem; 	
+	margin-left: 5.5rem;
+	text-align: center;
+	margin-top: .2rem;
+}
+#dm{
+	color: white;
+	/*position: absolute;*/
+  line-height: .62rem; 	
+}

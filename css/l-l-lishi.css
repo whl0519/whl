@@ -1,0 +1,117 @@
+.head-warp {
+	height: 1.3rem;
+	background-color: #1448ae;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.iteam {
+	color: white;
+}
+
+.tent-warp {
+	height: 11.75rem;
+	background-color: white;
+	
+	display: flex;
+}
+
+.content-lf {
+	width: 15%;
+	height: 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.list {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.content-ri {
+	width: 85%;
+	height: 11.2rem;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.r {
+	width: 6.2rem;
+	height: 1.55rem;
+	/*background-color: pink;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+}
+.le i{
+	font-style: initial;
+}
+.le {
+	width: 4.35rem;
+	height: 1.2rem;
+	/*background-color: red;*/
+}
+
+#text1 {
+	font-size: .299rem;
+}
+
+#text2 {
+	color: #f6c5a5;
+}
+
+#text3 {
+	color: #999999;
+	font-size: .15rem;
+	font-style: none;
+}
+
+.ri {
+	width: 1.5rem;
+	height: 1.2rem;
+	/*background-color: blue;*/
+	border-radius: 5px;
+	background: url(../img/llll/bgi_03.jpg);
+}
+
+.foot-warp {
+	/*width: 7.5rem;*/
+	height: 1rem;
+	background-color: #ededed;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+}
+
+.foot-warp li {
+	float: left;
+}
+
+.foot-warp img {
+	width: .55rem;
+	height: .45rem;
+	margin-left: .5rem;
+}
+
+.foot-warp p {
+	font-size: .3rem;
+	color: #9d9d9d;
+	text-align: center;
+}
+
+.f {
+	width: 1.57531rem;
+	height: 1rem;
+	margin-left: .3rem;
+}
